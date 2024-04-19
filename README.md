@@ -8,6 +8,8 @@ O mydesafioItau é uma API com propósitos de testar conhecimentos.
 Foi utlizado uma lambda para validar o token e uma para processar as requests. Além de um API Gateway para receber as solicitações.
 
 Utilizei essa arquitetura poir, é uma arquitetura de microsserviço. Sendo assim visando melhorar custos e diminuir o esforço para construção da infra.
+
+
 <img align="center" height="250" width="200" alt="css-icon" src="arquitetura.jpeg">
 
 Para testar a API, abra o Postman ou insominia e coloque o header necessário para autenticação e faça sua request
