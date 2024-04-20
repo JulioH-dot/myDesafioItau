@@ -126,8 +126,4 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
             }
 
 
-## Demonstração
-
-<img align="left" height="300" width="700" alt="coding-time" src="gifReadme.gif">
-
 
