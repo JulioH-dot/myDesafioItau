@@ -10,7 +10,7 @@ Foi utlizado uma lambda para validar o token e uma para processar as requests. A
 Utilizei essa arquitetura pois, é uma arquitetura de microsserviço. Sendo assim visando melhorar custos e diminuir o esforço para construção da infra.
 
 
-<img align="center" height="400" width="400" alt="css-icon" src="arquitetura.jpeg">
+<img align="center" height="400" width="700" alt="css-icon" src="arquitetura.jpeg">
 
 Para testar a API, abra o Postman ou insominia e coloque o header necessário para autenticação e faça sua request
 
