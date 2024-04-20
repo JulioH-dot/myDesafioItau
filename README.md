@@ -6,11 +6,11 @@
 
 O MyDesafioItau foi desenvolvido como uma API para avaliar competências em arquitetura e desenvolvimento em nuvem AWS.
 
-O uso de funções Lambda para autenticar o token e processar as requisições permite uma abordagem mais flexível e eficiente em termos de custos, pois as funções são executadas apenas quando necessário, escalando automaticamente de acordo com a demanda. Além disso, as funções Lambda são gerenciadas pelo AWS, o que reduz a carga operacional e simplifica o gerenciamento da infraestrutura.
+O uso de funções Lambda para autenticar o token e processar as requisições permite uma abordagem mais flexível e eficiente em termos de custos, pois as funções são executadas apenas quando necessário, escalando automaticamente de acordo com a demanda. Além disso, as funções Lambda são gerenciadas pela AWS, o que reduz a carga operacional e simplifica o gerenciamento da infraestrutura.
 
 O API Gateway atua como ponto de entrada para a API, gerenciando as solicitações de forma segura e fornecendo funcionalidades como autorização e monitoramento dos endpoints. Isso contribui para a segurança da aplicação, garantindo que apenas solicitações válidas sejam processadas e permitindo o controle fino sobre as permissões de acesso.
 
-Essa arquitetura baseada em microsserviços não só melhora a eficiência e reduz os custos operacionais, mas também torna o sistema mais resiliente e tolerante a falhas, pois cada microsserviço pode ser desenvolvido, implantado e escalado de forma independente. Isso significa que uma falha em um microsserviço não afetará necessariamente o funcionamento de todo o sistema, aumentando a confiabilidade e a disponibilidade da aplicação. Deixando claro que pode ser adicionado mais métodos de requisições como POST, PUT e DELETE conforme os conceitos REST
+Essa arquitetura baseada em microsserviços não só melhora a eficiência e reduz os custos operacionais, mas também torna o sistema mais resiliente e tolerante a falhas, pois cada microsserviço pode ser desenvolvido, implantado e escalado de forma independente. Isso significa que uma falha em um microsserviço não afetará necessariamente o funcionamento de todo o sistema, aumentando a confiabilidade e a disponibilidade da aplicação. Deixando claro que pode ser adicionado mais métodos de requisições como POST, PUT e DELETE conforme os conceitos REST cada um com seu microsserviço específico.
 
 
 <img align="center" height="400" width="700" alt="css-icon" src="arquitetura.jpeg">
