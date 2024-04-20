@@ -1,5 +1,5 @@
 import json
-from produtos import get_product, get_all_products
+from produtos import get_product_by_id, get_all_products
 
 def lambda_handler(event, context):
     
