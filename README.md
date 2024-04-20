@@ -64,9 +64,11 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
     + Body
 
             [
-              {"id": 1, "name": "Product 1", "price": 10.0},
-              {"id": 2, "name": "Product 2", "price": 20.0},
-              {"id": 3, "name": "Product 3", "price": 30.0}
+              {'id': 1, 'brand': 'Samsung', 'model': 'Galaxy S21', 'price': 4999.99, 'stock': 100, 'category': 'Smartphones',},
+              {'id': 2, 'brand': 'Dell', 'model': 'Inspiron 15', 'price': 3499.99, 'stock': 50, 'category': 'Computadores',},
+              {'id': 3, 'brand': 'Apple', 'model': 'Watch Series 6', 'price': 1999.99, 'stock': 75, 'category': 'Smartwatches',},
+              {'id': 4, 'brand': 'LG', 'model': 'OLED 55"', 'price': 4499.99, 'stock': 30, 'category': 'Smart TVs',},
+              ...
             ]
 
 + Response 401 (application/json)
@@ -97,9 +99,12 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
     + Body
           
             {
-              "id": 1, 
-              "name": "Product 1", 
-              "price": 10.0
+                "id": 11,
+                "brand": "Corsair",
+                "model": "K95 RGB Platinum",
+                "price": 999.99,
+                "stock": 15,
+                "category": "Teclados"
             }
             
 
