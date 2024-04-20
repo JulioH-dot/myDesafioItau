@@ -24,7 +24,7 @@ def gerar_resposta(status_code: int, mensagem: str = None, response: dict = None
         'Access-Control-Allow-Headers': '*',
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Method': '*'
-    }
+    } 
 
     if mensagem:
         body = {'mensagem': mensagem}
