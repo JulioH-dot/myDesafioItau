@@ -4,7 +4,7 @@
 
 ## URLs de acesso
 
-O MyDesafioItau foi desenvolvido como uma API para avaliar competências em arquitetura e desenvolvimento na nuvem.
+O MyDesafioItau foi desenvolvido como uma API para avaliar competências em arquitetura e desenvolvimento em nuvem AWS.
 
 O uso de funções Lambda para autenticar o token e processar as requisições permite uma abordagem mais flexível e eficiente em termos de custos, pois as funções são executadas apenas quando necessário, escalando automaticamente de acordo com a demanda. Além disso, as funções Lambda são gerenciadas pelo AWS, o que reduz a carga operacional e simplifica o gerenciamento da infraestrutura.
 
