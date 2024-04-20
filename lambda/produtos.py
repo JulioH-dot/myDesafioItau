@@ -6,7 +6,7 @@ products = [
     {'id': 3, 'name': 'Product 3', 'price': 30.0}
 ]
 
-def get_product(product_id):
+def get_product_by_id(product_id):
     product = next((p for p in products if p['id'] == product_id), None)
     if not product:
         raise Exception('Product not found')
