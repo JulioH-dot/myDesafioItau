@@ -28,7 +28,7 @@ Requisições para a API devem seguir os padrões:
 | `GET` | Retorna informações de um ou mais registros. |
 
 Autorização
-Para acessar esta rota, você precisa fornecer um token JWT no cabeçalho `authorization`.
+Para acessar esta rota, você precisa fornecer um token JWT no cabeçalho `Authorization`.
 
 ## Respostas
 
@@ -47,7 +47,7 @@ A API usa um função lambda para processar as solicitações:
 
 ## Autorização:
 
-A autorização para acessar as rotas é feita através de uma lambda de autorização associada à rota do API Gateway. Esta lambda valida o token JWT fornecido no cabeçalho `authorization` da solicitação.
+A autorização para acessar as rotas é feita através de uma lambda de autorização associada à rota do API Gateway. Esta lambda valida o token JWT fornecido no cabeçalho `Authorization` da solicitação.
 
 ## Exemplos
 
@@ -60,7 +60,7 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
 
 | Parâmetro Header   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `authorization` | `string` | **Obrigatório**. O Token da sua API |
+| `Authorization` | `string` | **Obrigatório**. O Token da sua API |
 
 + Response 200 (application/json)
 
@@ -95,7 +95,7 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
 
 | Parâmetro Header   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `authorization` | `string` | **Obrigatório**. O Token da sua API |
+| `Authorization` | `string` | **Obrigatório**. O Token da sua API |
 
 + Response 200 (application/json)
 
