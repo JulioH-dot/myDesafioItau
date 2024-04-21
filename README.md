@@ -13,7 +13,7 @@ O API Gateway atua como ponto de entrada para a API, gerenciando as solicitaçõ
 Essa arquitetura baseada em microsserviços não só melhora a eficiência e reduz os custos operacionais, mas também torna o sistema mais resiliente e tolerante a falhas, pois cada microsserviço pode ser desenvolvido, implantado e escalado de forma independente. Isso significa que uma falha em um microsserviço não afetará necessariamente o funcionamento de todo o sistema, aumentando a confiabilidade e a disponibilidade da aplicação. Deixando claro que pode ser adicionado mais métodos de requisições como POST, PUT e DELETE conforme os conceitos REST cada um com seu microsserviço específico.
 
 
-<img align="center" height="400" width="700" alt="css-icon" src="architeture.png">
+<img align="center" height="700" width="700" alt="css-icon" src="architeture.png">
 
 Para testar a API, abra o Postman ou insominia e coloque o header necessário para autenticação e faça sua request
 
