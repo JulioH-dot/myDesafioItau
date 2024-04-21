@@ -36,7 +36,7 @@ Para acessar esta rota, você precisa fornecer um token JWT no cabeçalho `Autho
 |---|---|
 | `200` | Requisição executada com sucesso (success).|
 | `404` | Registro pesquisado não encontrado (Product not found).|
-| `401` | falta os dados de acesso (Unauthorized).|
+| `401` | Falta de dados de acesso (Unauthorized).|
 | `403` | Dados de acesso inválidos (Forbidden).|
 
 ## Lambda Functions
