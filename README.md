@@ -36,7 +36,8 @@ Para acessar esta rota, você precisa fornecer um token JWT no cabeçalho `Autho
 |---|---|
 | `200` | Requisição executada com sucesso (success).|
 | `404` | Registro pesquisado não encontrado (Product not found).|
-| `401` | Dados de acesso inválidos (Unauthorized).|
+| `401` | falta os dados de acesso (Unauthorized).|
+| `403` | Dados de acesso inválidos (Forbidden).|
 
 ## Lambda Functions
 A API usa um função lambda para processar as solicitações:
@@ -80,6 +81,14 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
 
             {
                 "message": "Unauthorized"
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+                "message": "Forbidden"
             }
 
 
@@ -126,6 +135,14 @@ A autorização para acessar as rotas é feita através de uma lambda de autoriz
 
             {
                 "message": "Unauthorized"
+            }
+
++ Response 403 (application/json)
+
+    + Body
+
+            {
+                "message": "Forbidden"
             }
 
 
