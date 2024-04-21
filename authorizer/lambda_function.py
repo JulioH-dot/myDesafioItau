@@ -16,7 +16,7 @@ def lambda_handler(event, context):
     }
 
     try:
-        if (event["headers"]["authorization"] == jwt):
+        if (event["headers"]["Authorization"] == jwt):
             response = {
                 "isAuthorized": True,
                 "context": {
