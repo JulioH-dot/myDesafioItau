@@ -17,7 +17,7 @@ Essa arquitetura baseada em microsserviços não só melhora a eficiência e red
 
 Para testar a API, abra o Postman ou insominia e coloque o header necessário para autenticação e faça sua request
 
-URL: https://6y6d1o9m8b.execute-api.sa-east-1.amazonaws.com/items
+URL: https://mgjg8s5gpb.execute-api.sa-east-1.amazonaws.com/items
 
 Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFZmZlY3QiOiJBbGxvdyJ9.A8cfMGlfnzXnIXPI7EI_2kZqf5EtH8whOKqidhxI4y8
 
